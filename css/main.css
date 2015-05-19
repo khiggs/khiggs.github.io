@@ -1,5 +1,8 @@
 body
 {
+	background-image: url(../images/background-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-color: #36454f;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: normal;
@@ -12,6 +15,7 @@ h1, h3 {
 	font-weight: bold;
 }
 h1 {
+	background-color: #36454f
 	font-size: 28px
 }
 p {
