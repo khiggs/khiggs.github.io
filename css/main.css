@@ -1,13 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,400italic,700italic);
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 body
 {
-	background-image: url(../images/background-1.jpg);
+	background: url(../images/cows-banner.jpg) no-repeat #222222
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: #36454f;
-	font-family: Arial, Helvetica, sans-serif;
-	font-style: normal;
-	font-weight: 100;
-	text-decoration: none;
+	background-color: rgba(73, 70, 72, 1);
+	font-family: 'Lato', Arial;
+	font-weight: 350;
 }
 h1, h3 {
 	color: #ffffff;
@@ -15,22 +16,43 @@ h1, h3 {
 	font-weight: bold;
 }
 h1 {
-	background-color: #36454f
-	font-size: 28px
+	font-family: 'Ubuntu', Arial;
+	background-color: rgba(73, 70, 72, 1);
+	font-size: 40px;
+	font-weight: 550;
+	font-style: italic;
 }
 p {
 	color: #ffffff;
 	font-size: 14px;
+	font-weight: 100;
+	line-height: 1.4em;
 }
 ul{
 	color: #ffffff;
-	font-size: 14px
+	font-size: 14px;
+	font-weight: 100;
 }
 a {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 #slogan {
 	font-size: 18px;
 	font-style: italic;
+	border-bottom: 2px white solid;
+	padding-bottom: 6px;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
 }
+.phone {
+	margin: 0 0 30px 0;
+}
+.contact{
+	border: 2px white solid;
+}
+.border
+{
+border-style:solid;
+border-color:#fff;
+} 
