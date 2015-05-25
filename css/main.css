@@ -1,13 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500italic,500);
 
 body
 {
 	background: url(../images/cows-banner.jpg) no-repeat #222222
 	background-size: cover;
 	background-color: rgba(73, 70, 72, 1);
-	font-family: 'Lato', Arial;
+	font-family: 'Raleway', Arial;
 	font-weight: 350;
 }
 h1, h3 {
@@ -16,7 +16,7 @@ h1, h3 {
 	font-weight: bold;
 }
 h1 {
-	font-family: 'Ubuntu', Arial;
+	font-family: 'Roboto', Arial;
 	background-color: rgba(73, 70, 72, 1);
 	font-size: 40px;
 	font-weight: 550;
@@ -42,7 +42,7 @@ a {
 	font-style: italic;
 	border-bottom: 2px white solid;
 	padding-bottom: 6px;
-	font-family: 'Ubuntu', Arial;
+	font-family: 'Raleway', Arial;
 	font-weight: 400;
 }
 .phone {
