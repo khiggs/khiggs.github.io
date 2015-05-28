@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
+
+* {margin: 0; padding: 0; box-sizing:border-box;}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,400,600);
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500italic,500);
 
@@ -8,12 +11,15 @@ body
 	background-size: cover;
 	background-color: rgba(73, 70, 72, 1);
 	font-family: 'Raleway', Arial;
-	font-weight: 350;
+	font-weight: 200;
+	margin-left: 2em;
+	margin-top: 1em;
 }
 h1, h3 {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-top: 1em;
 }
 h1 {
 	font-family: 'Roboto', Arial;
@@ -24,17 +30,24 @@ h1 {
 }
 p {
 	color: #ffffff;
-	font-size: 14px;
-	font-weight: 100;
-	line-height: 1.4em;
+	font-size: 15px;
+	font-weight: 100
+	line-height: 1.5em;
+	margin-top: 1em;
+	max-width: 1000px;
 }
 ul{
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 100;
+	margin-top: 1.5em;
+	line-height: 1.5em;
+	list-style-position: inside;
+	max-width: 1000px;
 }
 a {
 	color: #ffffff;
+	text-decoration: none;
 }
 
 #slogan {
@@ -56,3 +69,8 @@ a {
 border-style:solid;
 border-color:#fff;
 } 
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
