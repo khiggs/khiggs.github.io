@@ -12,26 +12,36 @@ body
 	background-color: rgba(73, 70, 72, 1);
 	font-family: 'Raleway', Arial;
 	font-weight: 200;
-	margin-left: 2em;
-	margin-top: 1em;
 }
-h1, h3 {
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+h1, h3, h2 {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-top: 1em;
 }
 h1 {
 	font-family: 'Roboto', Arial;
-	background-color: rgba(73, 70, 72, 1);
+	background-color: rgba(59, 60, 54, 1);
 	font-size: 40px;
 	font-weight: 550;
 	font-style: italic;
+	padding: 0.3em;
+}
+h2{
+	font-size: 1.5em;
+	padding: 1em, 0;
+
+}
+h3 {
+	line-height: 2.5em;
 }
 p {
 	color: #ffffff;
 	font-size: 15px;
-	font-weight: 100
+	font-weight: 100;
 	line-height: 1.5em;
 	margin-top: 1em;
 	max-width: 1000px;
@@ -49,6 +59,9 @@ a {
 	color: #ffffff;
 	text-decoration: none;
 }
+#hero{
+	width: 100%;
+}
 
 #slogan {
 	font-size: 18px;
@@ -57,6 +70,9 @@ a {
 	padding-bottom: 6px;
 	font-family: 'Raleway', Arial;
 	font-weight: 400;
+}
+#history{
+	width: 960px;
 }
 .phone {
 	margin: 0 0 30px 0;
@@ -69,7 +85,7 @@ a {
 border-style:solid;
 border-color:#fff;
 } 
-P.blocktext {
+p.blocktext {
     margin-left: auto;
     margin-right: auto;
     width: 6em;
