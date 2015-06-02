@@ -5,12 +5,14 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500italic,500);
 
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+
 body
 {
 	background: url(../images/cows-banner.jpg) no-repeat #222222
 	background-size: cover;
-	background-color: rgba(73, 70, 72, 1);
-	font-family: 'Raleway', Arial;
+	background-color: rgba(255, 255, 255, 1);
+	font-family: 'Oswold', Arial;
 	font-weight: 200;
 }
 .container{
@@ -18,7 +20,6 @@ body
 	width: 960px;
 }
 h1, h3, h2 {
-	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -29,17 +30,20 @@ h1 {
 	font-weight: 550;
 	font-style: italic;
 	padding: 0.3em;
+	color: #ffffff;
 }
 h2{
 	font-size: 1.5em;
 	padding: 1em, 0;
+	color: #000000;
 
 }
 h3 {
 	line-height: 2.5em;
+	color: #000000;
 }
 p {
-	color: #ffffff;
+	color: #000000;
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 1.5em;
@@ -47,7 +51,7 @@ p {
 	max-width: 1000px;
 }
 ul{
-	color: #ffffff;
+	color: #000000;
 	font-size: 15px;
 	font-weight: 100;
 	margin-top: 1.5em;
@@ -56,8 +60,13 @@ ul{
 	max-width: 1000px;
 }
 a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
+}
+.columns {
+	width: 50%;
+	float:left;
+	padding:0 1em;;
 }
 #hero{
 	width: 100%;
@@ -66,7 +75,7 @@ a {
 #slogan {
 	font-size: 18px;
 	font-style: italic;
-	border-bottom: 2px white solid;
+	border-bottom: 2px black solid;
 	padding-bottom: 6px;
 	font-family: 'Raleway', Arial;
 	font-weight: 400;
@@ -78,15 +87,29 @@ a {
 	margin: 0 0 30px 0;
 }
 .contact{
-	border: 2px white solid;
+	border: 2px black solid;
 }
 .border
 {
 border-style:solid;
-border-color:#fff;
+border-color:#000;
 } 
 p.blocktext {
     margin-left: auto;
     margin-right: auto;
     width: 6em;
+}
+#footer {
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 1.5em;
+	margin-top: 2em;
+	clear: both;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
