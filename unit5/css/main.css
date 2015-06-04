@@ -20,37 +20,36 @@ body
 	width: 960px;
 }
 h1, h3, h2 {
-	text-transform: uppercase;
+	padding: 1 1 1 0em;
 	font-weight: bold;
 }
 h1 {
 	font-family: 'Roboto', Arial;
 	background-color: rgba(28, 28, 28, 1);
 	font-size: 40px;
-	font-weight: 550;
-	font-style: italic;
+	font-weight: 300;
 	padding: 0.3em;
 	color: #ffffff;
 }
 h2{
 	font-size: 1.5em;
-	padding: 1em, 0;
+	padding: 2em, 0;
 	color: #000000;
+	font-weight: 300;
 
 }
 h3 {
 	line-height: 2.5em;
 	color: #000000;
-	padding-top: 5 8 2 8px;
+	font-weight: 300;
 }
 p {
-	color: #000000;
+	color: #ffffff;
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 1.5em;
 	margin-top: 1em;
 	max-width: 1000px;
-	padding: 8px;
 }
 ul{
 	color: #000000;
@@ -60,21 +59,21 @@ ul{
 	line-height: 1.5em;
 	list-style-position: inside;
 	max-width: 1000px;
-	padding-bottom: 8px;
+	padding-bottom: 2px;
 }
 a {
 	color: #ffffff;
 	text-decoration: none;
 }
 .columns {
-	width: 50%;
+	width: 33.33%;
 	float:left;
 	padding:0 1em;
 }
 .columnsa {
 	width: 70%;
 	float:left;
-	padding:0 1em;
+	padding:0 1 1 0em;
 }
 .columnsb {
 	width: 30%;
@@ -86,34 +85,16 @@ a {
 }
 
 #slogan {
-	font-size: 18px;
-	font-style: italic;
+	font-size: 20px;
 	padding-bottom: 6px;
-	padding-left: 8px;
+	padding-right: 10px;
 	font-family: 'Raleway', Arial;
 	font-weight: 400;
-	float: left;
-	clear: both;
+	float: right;
+	color: #468999;
 }
 #history{
 	width: 960px;
-}
-.phone {
-	margin: 0 0 30px 0;
-}
-.profile {
-	padding-bottom: 20px;
-}
-.contact{
-	border: 2px black solid;
-	border-radius: 5px;
-	color: #000000;
-	padding: 30 5 5 5px;
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	width:160px;
-	margin-left:5px;"
 }
 .border
 {
@@ -127,7 +108,7 @@ p.blocktext {
 }
 nav {
 	  font-size: 1.2em;
-    float: right;
+    float: left;
 }
 nav a {
 	text-decoration: none;
@@ -158,6 +139,7 @@ div {
 	font-weight: 100;
 	line-height: 1.5em;
 	margin-top: 4em;
+	color: black;
 	clear: both;
 	float: right;
 }
