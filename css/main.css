@@ -9,7 +9,6 @@
 
 body
 {
-	background: url(../images/cows-banner.jpg) no-repeat #222222
 	background-size: cover;
 	background-color: rgba(255, 255, 255, 1);
 	font-family: 'Oswold', Arial;
@@ -34,14 +33,15 @@ h1 {
 }
 h2{
 	font-size: 1.5em;
-	padding: 1em, 0;
+	padding: 1em, 0em;
 	color: #000000;
+	letter-spacing: .2em;
 
 }
 h3 {
 	line-height: 2.5em;
 	color: #000000;
-	padding-top: 5 8 2 8px;
+	padding: 5px 5px 0px 5px;
 }
 p {
 	color: #000000;
@@ -50,7 +50,7 @@ p {
 	line-height: 1.5em;
 	margin-top: 1em;
 	max-width: 1000px;
-	padding: 8px;
+	padding: 0px 5px 9px 5px;
 }
 ul{
 	color: #000000;
@@ -59,31 +59,38 @@ ul{
 	margin-top: 1.5em;
 	line-height: 1.5em;
 	list-style-position: inside;
-	max-width: 1000px;
-	padding-bottom: 8px;
+	max-width: 960px;
+	padding: 0px 5px 9px 5px;
 }
 a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
+	padding: .3em;
 }
 .columns {
 	width: 50%;
 	float:left;
 	padding:0 1em;
 }
-.columnsa {
-	width: 70%;
+.columns-two-thirds {
+	width: 75%;
 	float:left;
 	padding:0 1em;
 }
-.columnsb {
-	width: 30%;
+.columns-one-third {
+	width: 25%;
 	float:left;
 	padding:0 1em;
 }
 #hero{
 	width: 100%;
+	height: 550px;
+	padding: 0;
 }
+#hero img {
+	width: 100%;
+}
+
 
 #slogan {
 	font-size: 18px;
@@ -108,7 +115,7 @@ a {
 	border: 2px black solid;
 	border-radius: 5px;
 	color: #000000;
-	padding: 30 5 5 5px;
+	padding: 10px 5px 5px 5px;
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -117,8 +124,8 @@ a {
 }
 .border
 {
-border-style:solid;
-border-color:#000;
+	border-style:solid;
+	border-color:#000;
 } 
 p.blocktext {
     margin-left: auto;
@@ -169,6 +176,10 @@ div {
 	clear: both;
 }
 a:hover{
-	background-color: #e4e4e4;
-	padding: .3em;
+	background-color: #d3d3d3;
+	
 }
+h1 a {
+	color: white;
+}
+.clearfix {   overflow: auto;   zoom: 1; }

@@ -9,7 +9,6 @@
 
 body
 {
-	background: url(../images/cows-banner.jpg) no-repeat #222222
 	background-size: cover;
 	background-color: rgba(255, 255, 255, 1);
 	font-family: 'Oswold', Arial;
@@ -20,7 +19,7 @@ body
 	width: 960px;
 }
 h1, h3, h2 {
-	padding: 1 1 1 0em;
+	padding: 1em 1em 1em 0em;
 	font-weight: bold;
 }
 h1 {
@@ -30,40 +29,47 @@ h1 {
 	font-weight: 300;
 	padding: 0.3em;
 	color: #ffffff;
+	letter-spacing: .3em;
 }
 h2{
 	font-size: 1.5em;
-	padding: 2em, 0;
+	padding: 3em, 0;
 	color: #000000;
 	font-weight: 300;
 
 }
 h3 {
-	line-height: 2.5em;
+	padding: 0px 5px 0px 5px;
 	color: #000000;
 	font-weight: 300;
+	letter-spacing: .2em;
 }
 p {
 	color: #ffffff;
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 1.5em;
-	margin-top: 1em;
+	margin-top: 0.6em;
 	max-width: 1000px;
+	padding: 5px;
 }
-ul{
-	color: #000000;
+ol{
+	color: #ffffff;
 	font-size: 15px;
 	font-weight: 100;
 	margin-top: 1.5em;
 	line-height: 1.5em;
 	list-style-position: inside;
 	max-width: 1000px;
-	padding-bottom: 2px;
+	padding: 2px;
 }
 a {
 	color: #ffffff;
 	text-decoration: none;
+	padding: .3em;
+}
+.h1thin {
+font-weight: bold;
 }
 .columns {
 	width: 33.33%;
@@ -73,7 +79,7 @@ a {
 .columnsa {
 	width: 70%;
 	float:left;
-	padding:0 1 1 0em;
+	padding:0 1em 1em 0em;
 }
 .columnsb {
 	width: 30%;
@@ -85,9 +91,8 @@ a {
 }
 
 #slogan {
-	font-size: 20px;
-	padding-bottom: 6px;
-	padding-right: 10px;
+	font-size: 16px;
+	padding: 8px 10px 1px 0px;
 	font-family: 'Raleway', Arial;
 	font-weight: 400;
 	float: right;
@@ -137,8 +142,8 @@ div {
 #footer {
 	font-size: 12px;
 	font-weight: 100;
-	line-height: 1.5em;
-	margin-top: 4em;
+	padding: 5px;
+	margin-top: 5px; 
 	color: black;
 	clear: both;
 	float: right;
@@ -152,5 +157,4 @@ div {
 }
 a:hover{
 	background-color: #e4e4e4;
-	padding: .3em;
 }
