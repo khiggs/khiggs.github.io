@@ -24,7 +24,7 @@ h1, h3, h2 {
 h1 {
 	font-family: 'Roboto', Arial;
 	background-color: rgba(28, 28, 28, 1);
-	font-size: 40px;
+	font-size: 2.5em;
 	font-weight: 550;
 	font-style: italic;
 	padding: 0.3em;
@@ -46,7 +46,7 @@ h3 {
 }
 p {
 	color: #000000;
-	font-size: 15px;
+	font-size: 1em;
 	font-weight: 100;
 	line-height: 1.5em;
 	margin-top: 1em;
@@ -55,13 +55,13 @@ p {
 }
 ul{
 	color: #000000;
-	font-size: 15px;
+	font-size: 1em;
 	font-weight: 100;
 	margin-top: 1.5em;
 	line-height: 1.5em;
 	list-style-position: inside;
-	max-width: 960px;
-	padding: 0px 5px 9px 5px;
+	max-width: 100%;
+	padding: 0 0.2em 1em 0.2em;
 }
 a {
 	color: #000000;
@@ -84,7 +84,7 @@ a {
 	padding:0 1em;
 }
 .columns-one-quarter {
-	width: 23%;
+	width: 20%;
 	float:left;
 	padding:0 1em;
 }
@@ -106,7 +106,7 @@ a {
 	font-weight: lighter;
 }
 #slogan {
-	font-size: 18px;
+	font-size: 1.2em;
 	font-style: italic;
 	padding-bottom: 6px;
 	padding-left: 8px;
@@ -122,16 +122,17 @@ a {
 	padding-bottom: 20px;
 }
 .contact{
-	border: 2px black solid;
+	border: .1em black solid;
 	border-radius: 5px;
 	color: #000000;
-	padding: 10px 5px 5px 5px;
+	padding: .2em .2em .2em .2em;
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	width:160px;
-	margin-left:5px;"
+	width:60%;
+	margin-left:.7em;"
 }
+
 .border
 {
 	border-style:solid;
@@ -166,8 +167,8 @@ div {
 .phone-no{
 	float: right;
 	 font-style: normal;
-	 font-size: 20px;
-	 padding-top: 10px;
+	 font-size: .5em;
+	 padding-top: .2em;
 }
 #about {
 	float: left;
@@ -177,7 +178,7 @@ div {
 	float: right;
 }
 footer {
-	font-size: 12px;
+	font-size: .5em;
 	font-weight: 100;
 	line-height: 1.5em;
 	margin-top: 4em;
@@ -192,9 +193,101 @@ footer {
 }
 a:hover{
 	background-color: #d3d3d3;
-	
 }
 h1 a {
 	color: white;
 }
 .clearfix {   overflow: auto;   zoom: 1; }
+
+@media only screen and (max-width: 768px) {
+  .container	{
+		float: none;
+		width: auto;
+	}
+	.columns-one-third{
+		float:none;
+		width: auto;
+	}
+	.columns-two-thirds{
+		float: none;
+		width: auto;
+	}
+	.colmuns{
+		float:none;
+		width: auto;
+	}
+	.contact
+	{
+		max-width: 50%;
+	}
+	.chris{
+	max-width: 30%;
+	padding-left: 1em;
+}
+	.bulls{
+		max-width: 20%;
+	}
+  nav {
+    float: none;
+    font-size: 1em;
+  }	
+  nav a{
+    float: none;
+  }
+  img {
+    width: 100%;
+  }
+  .phone-no{
+  	float: none;
+  	text-align: right;
+  	padding-left: 1em;
+  }
+  h1{
+  	font-size: 1.9em;
+  }
+	h3{
+		font-size: 1em;
+		padding-top: .2em;
+	}
+	p, ul{
+		font-size: .9em;
+	}
+	}
+	#slogan {
+		font-size: 1em;
+	}
+   }
+@media only screen and (max-width: 320px) {
+  h1{
+  	font-size: 1.6em;
+  }
+  h2 {
+    font-size: 0.6em;
+    display: inline;
+  }
+  p, ul {
+    margin: 1.8em .6em 0;
+    font-size: .8em;
+  }
+  li {
+    width: 80%;
+    padding: .5em;
+    line-height: 2em;
+  }
+  nav {
+  font-size: .5em;
+  float: none;
+  }
+  nav a {
+    margin: 0 1em 1em;
+    font-size: .5em;
+  }
+  img {
+    width: 80%;
+  }
+
+.columns-one-quarter {
+		float:none;
+		width: auto;
+	}
+  }
