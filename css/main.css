@@ -66,10 +66,8 @@ ul{
 a {
 	color: #000000;
 	text-decoration: none;
-	padding: .3em;
 }
 .columns {
-	width: 50%;
 	float:left;
 	padding:0 1em;
 }
@@ -84,13 +82,14 @@ a {
 	padding:0 1em;
 }
 .columns-one-quarter {
-	width: 20%;
+	width: 25%;
 	float:left;
 	padding:0 1em;
+	overflow: hidden;
 }
 #hero{
 	width: 100%;
-	max-height: 550px;
+	max-height: 80%;
 	padding: 0;
 	overflow: hidden;
 }
@@ -98,9 +97,9 @@ a {
 	width: 100%;
 }
 .imgtile{
-	max-width:90%;
-	max-height: 90%;
+	max-width: 85%;
 	padding-bottom: 1em;
+	overflow-y: hidden; 
 }
 .h1thin{
 	font-weight: lighter;
@@ -144,19 +143,20 @@ p.blocktext {
     width: 6em;
 }
 nav {
-	  font-size: 1.2em;
+	font-size: 1.2em;
     float: right;
 }
 nav a {
 	text-decoration: none;
-  color: #000000;
-   margin: 1em;
-  display: inline-block;
+	color: #000000;
+	margin: 1em;
+	padding: .3em;
+	display: inline-block;
 }
 section {
-  background: #d3d3d3;
-  color: #fff;
-  overflow: auto;
+	  background: #d3d3d3;
+	  color: #fff;
+	  overflow: auto;
 }
 div {
 	font-size: 1.2em;
@@ -188,7 +188,6 @@ footer {
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
-	height: 0; 
 	clear: both;
 }
 a:hover{
@@ -200,32 +199,26 @@ h1 a {
 .clearfix {   overflow: auto;   zoom: 1; }
 
 @media only screen and (max-width: 768px) {
-  .container	{
-		float: none;
-		width: auto;
+  .container {
+	width: auto;
 	}
-	.columns-one-third{
-		float:none;
-		width: auto;
+  .columns-one-third{
+	float:none;
+	width: auto;
 	}
-	.columns-two-thirds{
-		float: none;
-		width: auto;
+  .columns-two-thirds{
+	float: none;
+	width: auto;
 	}
-	.colmuns{
-		float:none;
-		width: auto;
+  .columns{
+	margin: 0 1em;
 	}
-	.contact
-	{
-		max-width: 50%;
+  .contact {
+	max-width: 50%;
 	}
-	.chris{
+  .chris{
 	max-width: 30%;
 	padding-left: 1em;
-}
-	.bulls{
-		max-width: 20%;
 	}
   nav {
     float: none;
@@ -245,13 +238,12 @@ h1 a {
   h1{
   	font-size: 1.9em;
   }
-	h3{
-		font-size: 1em;
-		padding-top: .2em;
+  h3{
+	font-size: 1em;
+	padding-top: .2em;
 	}
-	p, ul{
-		font-size: .9em;
-	}
+  p, ul{
+	font-size: .9em;
 	}
 	#slogan {
 		font-size: 1em;
@@ -275,19 +267,21 @@ h1 a {
     line-height: 2em;
   }
   nav {
-  font-size: .5em;
-  float: none;
+	  font-size: .4em;
+	  float: none;
   }
   nav a {
     margin: 0 1em 1em;
-    font-size: .5em;
+    font-size: .4em;
   }
   img {
-    width: 80%;
+    width: 100%;
   }
-
+  #slogan{
+  	display: none;
+  }
 .columns-one-quarter {
-		float:none;
-		width: auto;
+	float:none;
+	width: auto;
 	}
   }
