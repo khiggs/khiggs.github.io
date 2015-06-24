@@ -115,7 +115,7 @@ a {
 	clear: both;
 }
 .phone {
-	margin: 0 0 30px 0;
+	margin: 0 0 0 2.5em;
 }
 .profile {
 	padding-bottom: 20px;
@@ -129,7 +129,7 @@ a {
 	text-align: center;
 	text-decoration: none;
 	width:60%;
-	margin-left:.7em;"
+	margin: 0 0 .3em .1em;"
 }
 
 .border
@@ -166,9 +166,9 @@ div {
 }
 .phone-no{
 	float: right;
-	 font-style: normal;
-	 font-size: .5em;
-	 padding-top: .2em;
+	font-style: normal;
+	font-size: .5em;
+	padding-top: 0em;
 }
 #about {
 	float: left;
@@ -196,15 +196,24 @@ a:hover{
 h1 a {
 	color: white;
 }
+.map {
+	width: 80%;
+}
 .clearfix {   overflow: auto;   zoom: 1; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   .container {
+	width: auto;
+	}
+	.columns {
+	float: none;
 	width: auto;
 	}
   .columns-one-third{
 	float:none;
 	width: auto;
+	padding-left: 1em;
+	margin: 1em;
 	}
   .columns-two-thirds{
 	float: none;
@@ -215,6 +224,9 @@ h1 a {
 	}
   .contact {
 	max-width: 50%;
+	padding-left: .5em;
+	margin: 0 0 0 .5em;
+    width: 50%;
 	}
   .chris{
 	max-width: 30%;
@@ -230,13 +242,11 @@ h1 a {
   img {
     width: 100%;
   }
-  .phone-no{
-  	float: none;
-  	text-align: right;
-  	padding-left: 1em;
-  }
   h1{
   	font-size: 1.9em;
+  }
+  h2 {
+  	font-size: 1.2em;
   }
   h3{
 	font-size: 1em;
@@ -244,10 +254,20 @@ h1 a {
 	}
   p, ul{
 	font-size: .9em;
+	line-height: 1.5em;
 	}
-	#slogan {
-		font-size: 1em;
+  #slogan {
+	font-size: 1em;
 	}
+  .phone-no{
+  	float: none;
+	text-align: right;
+ 	padding-left: 1em;
+  	}
+  	.phone {
+  	padding-left: 1em;
+  	line-height: 0.5em;
+  	}
    }
 @media only screen and (max-width: 320px) {
   h1{
@@ -255,9 +275,12 @@ h1 a {
   }
   h2 {
     font-size: 0.6em;
-    display: inline;
   }
-  p, ul {
+  h3{
+  	font-size: 0.5em;
+  	line-height: 1em;
+  }
+  p, ul, h2 {
     margin: 1.8em .6em 0;
     font-size: .8em;
   }
@@ -267,12 +290,12 @@ h1 a {
     line-height: 2em;
   }
   nav {
-	  font-size: .4em;
-	  float: none;
+	font-size: .6em;
+	float: none;
   }
   nav a {
     margin: 0 1em 1em;
-    font-size: .4em;
+    font-size: .6em;
   }
   img {
     width: 100%;
@@ -280,8 +303,26 @@ h1 a {
   #slogan{
   	display: none;
   }
-.columns-one-quarter {
+  .columns-one-quarter {
 	float:none;
 	width: auto;
+	width: 100%;
+	}
+  .columns-one-third{
+  	padding: 0 0 0 .5em;
+  	margin-left: 1em;
+  }
+  .phone {
+	padding-left: .5em;
+	}
+  .contact {
+	padding-left: .5em;
+	width: 50%;
+	}
+	.imgtile{
+	width: auto;
+	}
+	.map{
+		width: 95%;
 	}
   }
