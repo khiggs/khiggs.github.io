@@ -48,7 +48,7 @@ p {
 	color: #000000;
 	font-size: 1em;
 	font-weight: 100;
-	line-height: 1.5em;
+	line-height: 1.2em;
 	margin-top: 1em;
 	max-width: 1000px;
 	padding: 0px 5px 9px 5px;
@@ -68,23 +68,20 @@ a {
 	text-decoration: none;
 }
 .columns {
-	float:left;
-	padding:0 1em;
+	padding:0 0em 0 0em;
+	margin: 0 8px 0 8px;
 }
 .columns-two-thirds {
 	width: 75%;
 	float:left;
-	padding:0 1em;
 }
 .columns-one-third {
 	width: 25%;
 	float:left;
-	padding:0 1em;
 }
 .columns-one-quarter {
 	width: 25%;
 	float:left;
-	padding:0 1em;
 	overflow: hidden;
 }
 #hero{
@@ -97,9 +94,19 @@ a {
 	width: 100%;
 }
 .imgtile{
-	max-width: 85%;
-	padding-bottom: 1em;
-	overflow-y: hidden; 
+  max-width: 160px;
+  padding-bottom: 1em;
+  overflow-y: hidden;
+  display: inline;
+  padding: 0 .1em;
+  overflow: hidden;
+}
+.img-pair {
+  display: inline;
+  text-align: center;
+}
+.disclaimer{
+	font-size: 0.8em;
 }
 .h1thin{
 	font-weight: lighter;
@@ -203,32 +210,30 @@ h1 a {
 	}
  .calf{
   	margin: .5em 0em .5em 1em;
+  	float: right;
   }	
 .map {
 	width: 80%;
 }
 .clearfix {   overflow: auto;   zoom: 1; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 680px) {
   .container {
 	width: auto;
 	}
 	.columns {
 	float: none;
 	width: auto;
+	margin: 8px;
 	}
   .columns-one-third{
 	float:none;
 	width: auto;
 	padding-left: 1em;
-	margin: 1em;
 	}
   .columns-two-thirds{
 	float: none;
 	width: auto;
-	}
-  .columns{
-	margin: 0 1em;
 	}
   .contact {
 	max-width: 50%;
@@ -242,7 +247,7 @@ h1 a {
   nav a{
     float: none;
   }
-  img {
+  #hero img {
     width: 100%;
   }
   h1{
@@ -272,6 +277,17 @@ h1 a {
   	padding-left: 1em;
   	line-height: 0.5em;
   	}
+  	.calf{
+  		max-width: 50%;
+  	}
+  	.imgtile {
+  float: none;
+  display: inline;
+	}
+	.img-pair {
+  width: 100%;
+  display: block;
+	}
    }
 @media only screen and (max-width: 320px) {
   h1{
