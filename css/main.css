@@ -49,10 +49,15 @@ p {
 	color: #000000;
 	font-size: 1em;
 	font-weight: 100;
-	line-height: 1.3em;
+	line-height: 1.4em;
 	margin-top: 1em;
 	max-width: 1000px;
 	padding: 0px 5px 9px 5px;
+}
+.welcome{
+	width: 70%;
+	text-align: left;
+	margin: .5em;
 }
 ul{
 	color: #000000;
@@ -62,7 +67,7 @@ ul{
 	line-height: 1.5em;
 	list-style-position: inside;
 	max-width: 100%;
-	padding: 0 0.2em 1em 0.2em;
+	padding: 0 0.2em 0.2em 0.2em;
 }
 a {
 	color: #000000;
@@ -105,9 +110,6 @@ a {
 .img-pair {
   display: inline;
   text-align: center;
-}
-.disclaimer{
-	font-size: 0.8em;
 }
 .h1thin{
 	font-weight: lighter;
@@ -162,7 +164,7 @@ nav a {
 	display: inline-block;
 }
 section {
-	  background-color: rgba(219, 217, 213, 0.7);
+	  background-color: rgba(237, 237, 237, 1);
 	  color: blue;
 	  overflow: auto;
 }
@@ -186,13 +188,13 @@ div {
 	float: right;
 }
 footer {
-	font-size: .5em;
+	font-size: .7em;
 	font-weight: 100;
 	line-height: 1.5em;
 	margin-top: 4em;
 	text-align: center;
 	background: grey;
-	padding: 2em;
+	padding: 1.5em;
 }
 .clearfix:after { 
 	content: "."; 
