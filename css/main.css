@@ -186,8 +186,8 @@ left: 100%;
 top: 64%;
 padding-right: 8px;
 margin-top: -0.50em;
-line-height: 1.2;
-font-size: 18px;
+line-height: 0.5em;
+font-size: 10px;
 font-weight: 200;
 vertical-align: middle;
 z-index: 99;
@@ -337,7 +337,7 @@ h1 a {
 	display: block;
 	font-size: .9em;
 	margin: 0em;
-	padding: 0em;
+	padding: 0.2em;
 }
 .phone-no{
 	display: none;

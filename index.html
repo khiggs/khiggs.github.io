@@ -16,6 +16,24 @@
 		<a href="news.html">news</a>
 		<a href="contact.html">contact</a>
 	</nav>
+	<div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+		<div></div>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		     </div>
+		 
+		     <div class="responsive-menu">
+		        <ul>
+		           <li><a href="sales.html">sales</a></li>
+		           <li><a href="history.html">history</a></li>
+		           <li><a href="news.html">news</a></li>
+		           <li><a href="contact.html">contact</a></li>
+		        </ul>
+		     </div>
+		</div>
 	<div id="hero">
 		<img src="images/cows-banner.jpg" alt="bulls">
 		<div id="welcome">
@@ -43,6 +61,18 @@
 		</section>
 	</section>
 	  <footer class="footer">&copy; 2015 BLW Steer &amp; Sons</footer>
-
+	  <script type="text/javascript">
+	jQuery(function($){
+    	$( '.menu-btn' ).click(function(){
+    	$('.responsive-menu').addClass('expand')
+    	$('.menu-btn').addClass('btn-none')
+    	})
+    
+    	$( '.close-btn' ).click(function(){
+    	$('.responsive-menu').removeClass('expand')
+    	$('.menu-btn').removeClass('btn-none')
+    	})
+  	})
+</script>
 </body>
 </html>
